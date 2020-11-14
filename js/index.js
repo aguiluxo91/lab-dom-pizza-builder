@@ -84,6 +84,12 @@ function renderGlutenFreeCrust() {
 
 function renderButtons() {
   // Iteration 3: add/remove the class "active" of each `<button class="btn">`
+  //const buttons = document.querySelectorAll('.btn') 
+  if (state.pepperoni) {
+    document.querySelector('.btn-pepperoni').classList.remove('active')
+  } else {
+    
+  }
 }
 
 function renderPrice() {
